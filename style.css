@@ -6,7 +6,7 @@ body {
   color: black;
 }
 
-/* OUTER FRAME (40px safe area) */
+/* 40px SAFE FRAME */
 .frame {
   position: relative;
   min-height: 100vh;
@@ -14,7 +14,7 @@ body {
   box-sizing: border-box;
 }
 
-/* LEFT MENU */
+/* LEFT MENU (FIXED) */
 .menu {
   position: fixed;
   top: 40px;
@@ -22,6 +22,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  z-index: 10;
 }
 
 .menu a {
@@ -34,11 +35,16 @@ body {
   color: blue;
 }
 
+/* ACTIVE LINK = DARK BLUE */
 .menu a.active {
-  color: lightblue;
+  color: #0033cc;
 }
 
-/* MAIN AREA */
+.menu a.active:hover {
+  color: #0033cc;
+}
+
+/* MAIN */
 .main {
   margin-left: 200px;
 }
@@ -58,6 +64,7 @@ body {
   text-decoration: none;
 }
 
+/* IMAGE */
 .item img {
   width: 100%;
   display: block;
@@ -72,6 +79,7 @@ body {
   color: black;
 }
 
+/* HOVER */
 .item:hover .title {
   color: blue;
 }
@@ -83,9 +91,7 @@ body {
   line-height: 1.6;
 }
 
-/* ========================= */
-/* 📱 MOBILE RESPONSIVE FIX  */
-/* ========================= */
+/* MOBILE */
 @media (max-width: 768px) {
 
   .frame {
@@ -93,16 +99,13 @@ body {
   }
 
   .menu {
-    position: relative;
-    top: 0;
-    left: 0;
-    margin-bottom: 20px;
-    flex-direction: row;
-    gap: 20px;
+    top: 20px;
+    left: 20px;
   }
 
   .main {
     margin-left: 0;
+    margin-top: 60px;
   }
 
   .grid {
