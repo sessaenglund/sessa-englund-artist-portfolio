@@ -6,17 +6,9 @@ body {
   color: black;
 }
 
-a {
-  color: black;
-  text-decoration: none;
-}
-
-a:hover {
-  color: blue;
-}
-
-.container {
-  margin: 40px;
+/* OUTER PADDING */
+.page {
+  padding: 40px;
 }
 
 /* LEFT MENU */
@@ -24,52 +16,60 @@ a:hover {
   position: fixed;
   top: 40px;
   left: 40px;
-  width: 180px;
-  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .menu a {
-  display: block;
-  margin-bottom: 5px;
+  font-size: 10px;
+  color: black;
+  text-decoration: none;
 }
 
-.menu .active {
+.menu a:hover {
+  color: blue;
+}
+
+.menu a.active {
   color: lightblue;
 }
 
-/* CENTER CONTENT */
+/* MAIN CONTENT */
 .main {
-  margin-left: 240px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  text-align: left;
+  margin-left: 200px;
 }
 
 /* GRID */
 .grid {
-  display: grid;
-  grid-template-columns: repeat(2, 300px);
+  display: flex;
+  flex-wrap: wrap;
   gap: 40px;
 }
 
+/* ITEM = image + overlay text */
 .item {
-  display: flex;
-  flex-direction: column;
+  position: relative;
+  width: 300px;
 }
 
 .item img {
   width: 100%;
-  height: auto;
   display: block;
 }
 
-.title {
-  margin-top: 5px;
+/* TEXT OVER IMAGE */
+.item .title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 10px;
+  color: black;
+  text-decoration: none;
+  padding: 0;
 }
 
-/* ABOUT */
-.about {
-  max-width: 600px;
-  line-height: 1.4;
+/* hover */
+.item a:hover .title {
+  color: blue;
 }
