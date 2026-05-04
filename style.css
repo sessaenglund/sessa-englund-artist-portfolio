@@ -6,7 +6,7 @@ body {
   color: black;
 }
 
-/* 40px SAFE FRAME */
+/* 40px FRAME */
 .frame {
   position: relative;
   min-height: 100vh;
@@ -14,7 +14,7 @@ body {
   box-sizing: border-box;
 }
 
-/* LEFT MENU (FIXED) */
+/* LEFT MENU */
 .menu {
   position: fixed;
   top: 40px;
@@ -35,16 +35,11 @@ body {
   color: blue;
 }
 
-/* ACTIVE LINK = DARK BLUE */
 .menu a.active {
   color: #0033cc;
 }
 
-.menu a.active:hover {
-  color: #0033cc;
-}
-
-/* MAIN */
+/* MAIN LAYOUT */
 .main {
   margin-left: 200px;
 }
@@ -56,17 +51,22 @@ body {
   gap: 40px;
 }
 
-/* ITEM */
+/* ======================= */
+/* DESKTOP IMAGE CARDS     */
+/* ======================= */
 .item {
   position: relative;
-  width: 300px;
+  width: 660px;
+  height: 440px;
   display: block;
   text-decoration: none;
+  overflow: hidden;
 }
 
-/* IMAGE */
 .item img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
   display: block;
 }
 
@@ -79,7 +79,6 @@ body {
   color: black;
 }
 
-/* HOVER */
 .item:hover .title {
   color: blue;
 }
@@ -91,7 +90,9 @@ body {
   line-height: 1.6;
 }
 
-/* MOBILE */
+/* ======================= */
+/* MOBILE RESPONSIVE       */
+/* ======================= */
 @media (max-width: 768px) {
 
   .frame {
@@ -112,8 +113,15 @@ body {
     gap: 20px;
   }
 
+  /* FULL WIDTH ON MOBILE */
   .item {
     width: 100%;
+    height: auto;
+  }
+
+  .item img {
+    width: 100%;
+    height: auto;
   }
 
 }
