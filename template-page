@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Project Title – Sessa Englund</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="frame">
+
+  <div class="menu">
+    <a href="index.html">Sessa Englund</a>
+    <a href="about.html">About</a>
+  </div>
+
+  <div class="main">
+
+    <div class="project-page">
+
+      <!-- TITLE -->
+      <div class="project-title">
+        Project Title
+      </div>
+
+      <!-- MAIN IMAGE -->
+      <div class="project-image">
+        <img src="images/project-image-1.webp">
+      </div>
+
+      <!-- TEXT -->
+      <div class="project-text">
+        Placeholder text for project description, exhibition information, materials, dimensions, year, or any additional writing related to the work.
+      </div>
+
+      <!-- GALLERY -->
+      <div class="project-gallery">
+
+        <div class="project-image">
+          <img src="images/project-image-2.webp">
+        </div>
+
+        <div class="project-image">
+          <img src="images/project-image-3.webp">
+        </div>
+
+        <div class="project-image">
+          <img src="images/project-image-4.webp">
+        </div>
+
+        <div class="project-image">
+          <img src="images/project-image-5.webp">
+        </div>
+
+        <div class="project-image">
+          <img src="images/project-image-6.webp">
+        </div>
+
+        <div class="project-image">
+          <img src="images/project-image-7.webp">
+        </div>
+
+        <div class="project-image">
+          <img src="images/project-image-8.webp">
+        </div>
+
+        <div class="project-image">
+          <img src="images/project-image-9.webp">
+        </div>
+
+        <div class="project-image">
+          <img src="images/project-image-10.webp">
+        </div>
+
+        <div class="project-image">
+          <img src="images/project-image-11.webp">
+        </div>
+
+        <div class="project-image">
+          <img src="images/project-image-12.webp">
+        </div>
+
+        <div class="project-image">
+          <img src="images/project-image-13.webp">
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
