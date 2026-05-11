@@ -64,9 +64,10 @@ body {
 /* ======================= */
 /* HOMEPAGE IMAGE CARDS    */
 /* ======================= */
+
 .item {
   position: relative;
-  width: 1200px;
+  width: 900px;
   display: block;
   text-decoration: none;
   overflow: hidden;
@@ -79,6 +80,7 @@ body {
 }
 
 /* OVERLAY TITLE */
+
 .title {
   position: absolute;
   top: 0;
@@ -92,6 +94,7 @@ body {
 }
 
 /* ABOUT TEXT */
+
 .about-text {
   max-width: 700px;
   font-size: 12px;
@@ -103,7 +106,7 @@ body {
 /* ======================= */
 
 .project-page {
-  width: 1200px;
+  width: 900px;
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -128,6 +131,15 @@ body {
   max-width: 700px;
   line-height: 1.6;
   margin-bottom: 60px;
+}
+
+.project-text a {
+  color: black;
+  text-decoration: none;
+}
+
+.project-text a:hover {
+  color: blue;
 }
 
 .project-gallery {
