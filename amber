@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Amber Waves of Grain, Sessa Englund & Bjarne Bare at Institue of the Sun</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="frame">
+
+  <div class="menu">
+    <a href="index.html">Sessa Englund</a>
+    <a href="about.html">About</a>
+  </div>
+
+  <div class="main">
+
+    <div class="project-page">
+
+      <div class="project-title">
+Amber Waves of Grain, Sessa Englund & Bjarne Bare at Institue of the Sun
+</div>
+
+      <div class="project-image">
+        <img src="images/amber1.webp" alt="Amber">
+      </div>
+
+      <div class="project-text">
+
+Residency and show at '<a href="https://www.instituteofthesun.com/exhibitions" target="_blank"><span class="title">Institute of the Sun</span></a>' Twentynine Palms, CA, 2024.
+<br></br>
+Bjarne Bare and Sessa Englund, curated by Anna Frost.
+<br></br>
+"Nestled among the undulating fields of golden wheat, in the desolate expanse of Southern California's desert, where the sun blazes unforgivingly and the land sprawls out like a forgotten tapestry, there stands a modest home. This outpost, echoing the resilience and tenacity of the people who came before.
+<br></br>
+They fashioned their homes from the very earth beneath their feet, using age-old techniques passed down through generations to create shelters that stood defiant against the desert's relentless onslaught."
+
+      </div>
+
+      <div class="project-gallery">
+
+        <div class="project-image"><img src="images/amber2.webp" alt=""></div>
+        <div class="project-image"><img src="images/amber3.webp" alt=""></div>
+        <div class="project-image"><img src="images/amber4.webp" alt=""></div>
+  
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
